@@ -1,0 +1,14 @@
+.container {
+    width: 400px;
+    background-color: #dddddd;
+    border: 1px solid black;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+div {
+    font-size: 18px;
+}
