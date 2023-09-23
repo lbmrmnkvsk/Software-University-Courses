@@ -1,0 +1,24 @@
+main {
+    width: 700px;
+    height: 730px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #a6e1ec;
+}
+
+img {
+    width: 200px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+li {
+    color: #3f51b5;
+    width: 595px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    list-style-type: none;
+}
