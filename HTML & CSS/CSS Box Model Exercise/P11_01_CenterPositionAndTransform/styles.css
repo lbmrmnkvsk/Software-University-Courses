@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: white;
+    width: fit-content;
+}
+
+button {
+    background-color: rgb(0, 153, 0);
+    justify-self: end;
+}
+
+div {
+    
+}
