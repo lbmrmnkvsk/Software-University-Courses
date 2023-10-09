@@ -1,0 +1,19 @@
+.div1 {
+    background-color: lightblue;
+    height: 45vh;
+}
+
+.div2 {
+    background-color: silver;
+    height: 45vh;
+}
+
+img {
+    max-width: 25vh;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
