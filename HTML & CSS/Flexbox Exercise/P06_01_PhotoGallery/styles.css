@@ -1,0 +1,30 @@
+body {
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em;
+
+}
+
+li {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    width: 30vw;
+    border: 3px solid black;
+}
+
+img {
+    width: 100%;
+}
