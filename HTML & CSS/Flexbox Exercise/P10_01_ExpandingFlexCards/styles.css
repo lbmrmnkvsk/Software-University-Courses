@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    max-width: 50vw;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 50vw;
+    height: 100vh;
+    gap: 1em;
+    flex-basis: 10%;
+}
+
+.one {
+    flex-grow: 1;
+}
+
+.five {
+    flex-grow: 5;
+}
+
+li {
+    min-width: 10vw;
+    max-width: 50vw;
+    width: 10vw;
+}
