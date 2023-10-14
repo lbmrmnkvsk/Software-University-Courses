@@ -1,0 +1,23 @@
+.img1 {
+    float: right;
+    margin: 1em;
+}
+
+.img2 {
+    float: left;
+    margin: 1em;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex-grow: 4;
+    flex-basis: 80%;
+}
+
+aside {
+    flex-grow: 1;
+    flex-basis: 20%;
+}
