@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+ul {
+    display: flex;
+    align-items: end;
+    gap: 1em;
+}
+
+li {
+    display: inline;
+    justify-self: end;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
