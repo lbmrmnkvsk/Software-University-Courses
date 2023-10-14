@@ -1,0 +1,21 @@
+header {
+    border-bottom: 2px solid black;
+}
+
+body {
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
+}
+
+header, main, footer {
+    padding: 1em;
+}
+
