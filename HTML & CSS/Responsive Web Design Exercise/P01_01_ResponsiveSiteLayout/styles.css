@@ -1,0 +1,40 @@
+header, footer, div {
+    background-color: lightblue;
+    padding: 1em;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 50vw;
+}
+
+main {
+    display: flex;
+    gap: 1em;
+}
+
+.left ul {
+    list-style: none;
+    padding: 1em;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    flex-grow: 0;
+}
+
+.right {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 499px) {
+    main {
+        flex-direction: column;
+    }
+}
