@@ -1,0 +1,123 @@
+@media (max-width: 600px) {
+
+    html {
+        max-width: 100vw;
+    }
+
+    body {
+        font-size: 12px;
+        max-width: 100%;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        text-align: center;
+    }
+    
+    .header-title {
+        padding: 0 5%;
+    }
+
+    header section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-title h1 {
+        font-size: 2em;
+    }
+
+    .header-title p {
+        font-size: 1.2em;
+    }
+
+    .header-title button {
+        font-size: 1.2em;
+    }
+
+    .team-description-wrapper ul {
+        display: flex;
+        flex-wrap: wrap;
+        
+        gap: 2em;
+    }
+
+    .team-description-wrapper ul li {
+        flex: 1 1;
+        max-width: 50%;
+    }
+
+    .team-description ul li img {
+        max-width: 125px;
+        max-height: 125px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-us p:nth-child(3) {
+        width: 100%;
+    }
+
+    .choose-us ul {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .choose-us ul li {
+        max-width: 70%;
+    }
+   
+    .blog-news ul {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .blog-news ul li {
+        max-width: 80%;
+        display: flex;
+        align-items: stretch;
+    }
+
+    .blog-news .avatar {
+        flex-grow: 6;
+        flex-basis: 100px;
+        flex-shrink: 3;
+    }
+
+    .blog-news .content {
+        flex-basis: 100px;
+        flex-grow: 3;
+        flex-shrink: 4;
+        padding: 1em;
+    }
+
+    .blog-news ul .item .avatar img{
+        height: 100%;
+        width: 100%;
+    }
+
+}
