@@ -1,5 +1,4 @@
 # Software-University-Courses
-# My Software Engineering Journey
 
 Welcome to my GitHub repository! I have taken a total of 14 Software Engineering courses at Software University ([SoftUni](https://softuni.bg/)) and I have solved the problems given as exercises for each course.
 
