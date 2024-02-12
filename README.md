@@ -46,7 +46,7 @@ Welcome to my GitHub repository! I have taken a total of 14 Software Engineering
 
 11. **MySQL, January 2024**
     - [Course Description](https://softuni.bg/trainings/4365/mysql-january-2024)
-    - Certificate: I will receive the certificate in February 2024
+    - [Certificate](https://softuni.bg/certificates/details/202745/c57d40c1)
 
 12. **Spring Data, February 2024**
     - [Course Description](https://softuni.bg/trainings/4366/spring-data-february-2024)
