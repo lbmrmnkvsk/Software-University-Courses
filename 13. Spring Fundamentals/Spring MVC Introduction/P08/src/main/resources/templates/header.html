@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <title>Header</title>
+</head>
+<body>
+<nav>
+    <!-- Always show the Home link -->
+    <a th:href="@{/}">Home</a>
+
+    <!-- Show Register and Login links only if the user is not authenticated -->
+    <div sec:authorize="!isAuthenticated()">
+        <a th:href="@{/users/register}">Register</a>
+        <a th:href="@{/users/login}">Login</a>
+    </div>
+
+    <!-- Show Logout and Admin dropdown only if the user is authenticated -->
+    <div sec:authorize="isAuthenticated()">
+        <a th:href="@{/logout}" >Logout</a>
+        <!-- Additionally check if the logged-in user has the ADMIN role -->
+        <div sec:authorize="hasAuthority('ADMIN')">
+            <a th:href="@{/admin}">Admin Panel</a>
+        </div>
+    </div>
+</nav>
+</body>
+</html>
