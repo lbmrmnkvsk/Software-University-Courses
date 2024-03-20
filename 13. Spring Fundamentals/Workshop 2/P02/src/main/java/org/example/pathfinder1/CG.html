@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!-- ... Your existing HTML head ... -->
+
+<!-- ... your existing head, navigation, and other code ... -->
+
+<section class="container mt-4">
+    <div th:if="${route}" th:object="${route}" class="route-details">
+        <h2 th:text="*{name}">Route Name</h2>
+        <!-- Show images if any -->
+        <div th:if="*{pictures}" class="gallery">
+            <div th:each="picture : *{pictures}">
+                <img th:src="${picture.url}" th:alt="${picture.title}" class="rounded" />
+            </div>
+        </div>
+        <!-- Map section here if applicable -->
+        <section id="map"></section>
+        <!-- Video section -->
+        <iframe th:if="*{videoUrl}" th:src="${route.videoUrl}" frameborder="0" allowfullscreen></iframe>
+        <!-- Description -->
+        <div class="route-description">
+            <h4>Description:</h4>
+            <p th:text="*{description}">Route description...</p>
+        </div>
+        <!-- Comments section -->
+        <!-- ... -->
+    </div>
+</section>
+
+<!-- ... footer and the rest of the body ... -->
+
+
+</html>
