@@ -1,6 +1,16 @@
 package softuni.exam.repository;
 
-// TODO:
-public interface StarRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import softuni.exam.models.entity.Star;
+import softuni.exam.models.entity.enums.StarType;
 
+import java.util.List;
+import java.util.Optional;
+
+
+@Repository
+public interface StarRepository extends JpaRepository<Star, Long> {
+    Optional<Star> findByName(String name);
+    List<Star> findByStarTypeAndObserversIsEmptyOrderByLightYearsAsc(StarType starType);
 }

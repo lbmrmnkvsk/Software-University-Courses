@@ -1,8 +1,10 @@
 package softuni.exam.service;
 
-import java.io.IOException;
+import softuni.exam.models.entity.Constellation;
 
-// TODO: Implement all methods
+import java.io.IOException;
+import java.util.Optional;
+
 
 public interface ConstellationService {
 
@@ -11,4 +13,8 @@ public interface ConstellationService {
     String readConstellationsFromFile() throws IOException;
 
 	String importConstellations() throws IOException;
+
+    Optional<Constellation> findByName(String name);
+    Constellation save(Constellation constellation);
+    Optional<Constellation> findById(Long id);
 }

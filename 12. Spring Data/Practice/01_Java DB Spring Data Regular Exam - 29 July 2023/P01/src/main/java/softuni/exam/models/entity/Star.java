@@ -1,6 +1,10 @@
 package softuni.exam.models.entity;
 
+import softuni.exam.models.entity.enums.StarType;
+
 import javax.persistence.*;
+import javax.validation.constraints.Positive;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -8,6 +12,7 @@ import java.util.Set;
 public class Star extends BaseEntity {
     @Column(unique = true, nullable = false)
     private String name;
+    @Positive
     @Column(name = "light_years", nullable = false)
     private Double lightYears;
     @Column(columnDefinition = "TEXT", nullable = false)
@@ -15,22 +20,13 @@ public class Star extends BaseEntity {
     @Column(name = "star_type", nullable = false)
     @Enumerated(EnumType.STRING)
     private StarType starType;
-    @OneToMany(mappedBy = "observingStar")
-    private Set<Astronomer> observers;
+    @OneToMany(mappedBy = "observingStar", fetch = FetchType.EAGER)
+    private Set<Astronomer> observers = new HashSet<>();
     @ManyToOne
     @JoinColumn(name = "constellation_id")
     private Constellation constellation;
 
     public Star() {
-    }
-
-    public Star(String name, Double lightYears, String description, StarType starType, Set<Astronomer> observers, Constellation constellation) {
-        this.name = name;
-        this.lightYears = lightYears;
-        this.description = description;
-        this.starType = starType;
-        this.observers = observers;
-        this.constellation = constellation;
     }
 
     public String getName() {

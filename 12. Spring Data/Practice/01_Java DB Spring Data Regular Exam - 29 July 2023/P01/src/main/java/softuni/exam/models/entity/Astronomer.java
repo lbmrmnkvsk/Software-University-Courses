@@ -14,22 +14,12 @@ public class Astronomer extends BaseEntity {
     private Double salary;
     @Column(name = "average_observation_hours", nullable = false)
     private Double averageObservationHours;
-
-    private LocalDate birthday;
+    public LocalDate birthday;
     @ManyToOne
     @JoinColumn(name = "observing_star_id")
     private Star observingStar;
 
     public Astronomer() {
-    }
-
-    public Astronomer(String firstName, String lastName, Double salary, Double averageObservationHours, LocalDate birthday, Star observingStar) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.salary = salary;
-        this.averageObservationHours = averageObservationHours;
-        this.birthday = birthday;
-        this.observingStar = observingStar;
     }
 
     public String getFirstName() {

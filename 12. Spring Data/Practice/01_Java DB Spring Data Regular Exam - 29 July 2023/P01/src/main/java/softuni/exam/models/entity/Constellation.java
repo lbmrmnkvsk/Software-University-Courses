@@ -1,9 +1,7 @@
 package softuni.exam.models.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -13,16 +11,10 @@ public class Constellation extends BaseEntity {
     private String name;
     @Column(nullable = false)
     private String description;
-    @OneToMany(mappedBy = "constellation")
-    private Set<Star> stars;
+    @OneToMany(mappedBy = "constellation", fetch = FetchType.EAGER)
+    private Set<Star> stars = new HashSet<>();
 
     public Constellation() {
-    }
-
-    public Constellation(String name, String description, Set<Star> stars) {
-        this.name = name;
-        this.description = description;
-        this.stars = stars;
     }
 
     public String getName() {

@@ -1,8 +1,11 @@
 package softuni.exam.service;
 
-import java.io.IOException;
+import softuni.exam.models.entity.Star;
 
-// TODO: Implement all methods
+import java.io.IOException;
+import java.util.Optional;
+
+
 public interface StarService {
 
     boolean areImported();
@@ -12,4 +15,8 @@ public interface StarService {
 	String importStars() throws IOException;
 
     String exportStars();
+
+    Optional<Star> findById(Long id);
+
+    Star save(Star star);
 }
