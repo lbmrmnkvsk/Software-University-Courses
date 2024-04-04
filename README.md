@@ -50,13 +50,13 @@ Welcome to my GitHub repository! I have taken a total of 14 Software Engineering
 
 12. **Spring Data, February 2024**
     - [Course Description](https://softuni.bg/trainings/4366/spring-data-february-2024)
-    - Certificate: I will receive the certificate in April 2024
+    - [Certificate](https://softuni.bg/certificates/details/209318/10bb7004)
 
 13. **Spring Fundamentals, September 2023**
     - [Course Description](https://softuni.bg/trainings/4235/spring-fundamentals-september-2023)
-    - Certificate: I will receive the certificate in June 2024
+    - Certificate: I will receive the certificate after the exam on June 23, 2024
 
 14. **Spring Advanced, October 2023**
     - [Course Description](https://softuni.bg/trainings/4236/spring-advanced-october-2023)
-    - Certificate: I will receive the certificate in August 2024
+    - Certificate: I will receive the certificate after the exam on August 10, 2024
 
