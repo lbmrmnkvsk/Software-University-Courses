@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!-- ... Your existing HTML head ... -->
+
+<!-- ... your existing head, navigation, and other code ... -->
+
+<form action="#" th:action="@{/routes/add}" th:object="${routeRegistrationDto}" method="post" enctype="multipart/form-data">
+    <input type="text" th:field="*{name}" placeholder="Route Name" />
+    <textarea th:field="*{description}" placeholder="Route Description"></textarea>
+    <input type="file" th:field="*{gpxCoordinates}" />
+    <select th:field="*{level}">
+        <option value="BEGINNER">Beginner</option>
+        <option value="INTERMEDIATE">Intermediate</option>
+        <option value="ADVANCED">Advanced</option>
+    </select>
+    <input type="text" th:field="*{videoUrl}" placeholder="Video URL" />
+
+    <div th:each="category : ${categories}">
+        <input type="checkbox" th:id="${'category' + category.ordinal()}" th:value="${category.ordinal()}" th:field="*{categoryIds}" />
+        <label th:for="${'category' + category.ordinal()}" th:text="${category.name()}"></label>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+
+
+
+</html>
