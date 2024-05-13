@@ -1,4 +1,4 @@
-# Software-University-Courses
+<h1 align="center">Software University Courses</h1>
 
 Welcome to my GitHub repository! I have taken a total of 14 Software Engineering courses at Software University ([SoftUni](https://softuni.bg/)) and I have solved the problems given as exercises for each course.
 
