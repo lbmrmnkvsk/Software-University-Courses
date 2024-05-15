@@ -39,7 +39,7 @@ I have completed a total of 14 Software Engineering courses at Software Universi
 9. **Algorithms Fundamentals with Java, May 2023**
    <br>- [Course Description](https://softuni.bg/trainings/4176/algorithms-fundamentals-with-java-may-2023)
    <br>- Certificate: I do not have a certificate for this course because I took the May 2023 edition of the course in
-   <br>&nbsp;&nbsp;   January 2024 and was no final exam available at that time. Passing an exam is a requirement
+   <br>&nbsp;&nbsp;   January 2024 and there was no final exam available at that time. Passing an exam is a requirement
    <br>&nbsp;&nbsp;   for being issued a certificate.
 
 11. **Algorithms Advanced with Java, July 2023**
