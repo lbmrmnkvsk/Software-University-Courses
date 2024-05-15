@@ -1,6 +1,6 @@
 <h1 align="center"><img src="software-university-logo.png" height="150"/></h1>
 
-I have completed a total of 14 Software Engineering courses at Software University ([SoftUni](https://softuni.bg/)) and I have solved the problems given as exercises for each course. My project for the course Spring Advanced is a clone of the Amazon Kindle Store which you can find [here](https://github.com/lubomir-m/Amazon-Kindle-Store).
+I have completed a total of 14 Software Engineering courses at Software University ([SoftUni](https://softuni.bg/)) and I have solved the problems given as exercises for each course. My project for the course Spring Advanced is a clone of the Amazon Kindle Store which you can find in [this repository](https://github.com/lubomir-m/Amazon-Kindle-Store).
 
 ## List of Courses
 
@@ -38,8 +38,8 @@ I have completed a total of 14 Software Engineering courses at Software Universi
 
 9. **Algorithms Fundamentals with Java, May 2023**
    <br>- [Course Description](https://softuni.bg/trainings/4176/algorithms-fundamentals-with-java-may-2023)
-   <br>- Certificate: I do not have a certificate for this course because I took the May 2023 edition of the course in January 2024 and there
-   <br>&nbsp;&nbsp;   was no final exam available at that time. Passing an exam is a requirement for being issued a certificate.
+   <br>- Certificate: I do not have a certificate for this course because I took the May 2023 edition of the course in
+   <br>&nbsp;&nbsp;   January 2024 and there was no final exam available at that time. Passing an exam is a requirement for being issued a certificate.
 
 11. **Algorithms Advanced with Java, July 2023**
     <br>- [Course Description](https://softuni.bg/trainings/4179/algorithms-advanced-with-java-july-2023)
