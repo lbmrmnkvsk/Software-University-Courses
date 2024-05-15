@@ -38,30 +38,33 @@ I have completed a total of 14 Software Engineering courses at Software Universi
 
 9. **Algorithms Fundamentals with Java, May 2023**
    <br>- [Course Description](https://softuni.bg/trainings/4176/algorithms-fundamentals-with-java-may-2023)
-   <br>- Certificate: I do not have a certificate for this course because I took the May 2023 edition of the course in
-   <br>&nbsp;&nbsp;   January 2024 and there was no final exam available at that time. Passing an exam is a requirement for being issued a certificate.
+   <br>- Certificate: I do not have a certificate for this course because I took the May 2023 edition of the course in January 2024 and
+   <br>&nbsp;&nbsp;   was no final exam available at that time. Passing an exam is a requirement
+   <br>&nbsp;&nbsp;   for being issued a certificate.
 
-11. **Algorithms Advanced with Java, July 2023**
+10. **Algorithms Advanced with Java, July 2023**
     <br>- [Course Description](https://softuni.bg/trainings/4179/algorithms-advanced-with-java-july-2023)
     <br>- Certificate: I do not have a certificate for this course because I took the July 2023 edition of the course in February 2024 and there
-    <br>&nbsp;&nbsp;   was no final exam available at that time. Passing an exam is a requirement for being issued a certificate.
+    <br>&nbsp;&nbsp;   was no final exam available at that time. Passing an exam is a requirement
+    <br>&nbsp;&nbsp;   for being issued a certificate.
 
-13. **MySQL, January 2024**
+11. **MySQL, January 2024**
     <br>- [Course Description](https://softuni.bg/trainings/4365/mysql-january-2024)
     <br>- [Certificate](https://softuni.bg/certificates/details/202745/c57d40c1)
 
-14. **Spring Data, February 2024**
+12. **Spring Data, February 2024**
     <br>- [Course Description](https://softuni.bg/trainings/4366/spring-data-february-2024)
     <br>- [Certificate](https://softuni.bg/certificates/details/209318/10bb7004)
 
-15. **Spring Fundamentals, September 2023**
+13. **Spring Fundamentals, September 2023**
     <br>- [Course Description, September 2023](https://softuni.bg/trainings/4235/spring-fundamentals-september-2023)
     <br>- [Course Description, May 2024](https://softuni.bg/trainings/4530/spring-fundamentals-may-2024)
     <br>- Certificate: I will receive the certificate after the final exam on June 23, 2024.
 
-16. **Spring Advanced, October 2023**
+14. **Spring Advanced, October 2023**
     <br>- [Course Description, October 2023](https://softuni.bg/trainings/4236/spring-advanced-october-2023)
     <br>- [Course Description, June 2024](https://softuni.bg/trainings/4532/spring-advanced-june-2024)
-    <br>- Certificate: This course has a project assignment instead of a final exam. My project for this course is a clone of the Amazon Kindle
-    <br>&nbsp;&nbsp;   Store which you can find in [this repository](https://github.com/lubomir-m/Amazon-Kindle-Store). I will receive the certificate after the project defense on August 10, 2024.
+    <br>- Certificate: This course has a project assignment instead of a final exam. My project for this course is a clone
+    <br>&nbsp;&nbsp;   of the Amazon Kindle Store which you can find in [this repository](https://github.com/lubomir-m/Amazon-Kindle-Store).
+    <br>&nbsp;&nbsp;   I will receive the certificate after the project defense on August 10, 2024.
 
