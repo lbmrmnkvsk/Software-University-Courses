@@ -2,7 +2,7 @@
 
 I have completed a total of 14 Software Engineering courses at Software University ([SoftUni](https://softuni.bg/)) and I have solved the problems given as exercises for each course. My project for the course Spring Advanced is a clone of the Amazon Kindle Store which you can find in [this repository](https://github.com/lubomir-m/Amazon-Kindle-Store).
 
-## List of Courses
+## List of Completed Courses
 
 | Course | Details |
 |--------|-------------|
